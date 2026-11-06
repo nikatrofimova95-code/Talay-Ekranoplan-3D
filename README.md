@@ -40,3 +40,14 @@ Because the real-world dimensions of the Talay ekranoplan are extremely large (w
 
 * **Wall Thickness:** Maintained at **0.5 mm** for structural optimization.
 * **Tip for Slicers:** If you are preparing the files for 3D printing or full-scale prototyping, keep this scale factor in mind and adjust it back (or scale up) depending on your specific workspace requirements.
+
+## 📂 Project Structure
+- `blender_project/` — Contains the original `.blend` file with full scene details and meshes.
+- `stl_files/` — Contains export-ready 3D models (scaled at 0.05).
+- `images/` — Visual renders and technical screenshots organized into subfolders.
+
+---
+
+## 🚀 How to Open
+1. **Blender Files (`.blend`):** Open directly in Blender (v3.0 or higher recommended) to inspect meshes, modifiers, and components.
+2. **STL Files (`.stl`):** Open using any standard 3D viewer, CAD software, or slicer (Cura, PrusaSlicer, Windows 3D Viewer).
