@@ -1,2 +1,29 @@
 # Talay-Ekranoplan-3D
 Detailed 3D model of the Talay ekranoplan (ground effect vehicle) created in Blender, including STL files and instructions for viewing.
+
+## 📊 Technical Specifications
+Due to the engineering scale of the real vehicle, the model dimensions are defined as follows:
+
+| Parameter | Value |
+| :--- | :--- |
+| **Wingspan (Розмах крил)** | 3594.58 mm |
+| **Length (Довжина)** | 2578.17 mm |
+| **Height (Висота)** | 808.088 mm |
+| **Wall Thickness (Товщина стінок)** | 0.5 mm |
+
+---
+
+## 🔍 Blender 3D Model Views
+To fully demonstrate the geometry and detailing of the model, multiple perspectives from Blender are provided below:
+
+* **Engineering & Front/Side Views:**
+<p align="center">
+  <img src="шлях_до_папки/назва_файлу_спереду.png" width="48%" alt="Front View">
+  <img src="шлях_до_папки/назва_файлу_збоку.png" width="48%" alt="Side View">
+</p>
+
+* **Top & Isometric Views:**
+<p align="center">
+  <img src="шлях_до_папки/назва_файлу_зверху.png" width="48%" alt="Top View">
+  <img src="шлях_до_папки/назва_файлу_ізометрія.png" width="48%" alt="Isometric View">
+</p>
