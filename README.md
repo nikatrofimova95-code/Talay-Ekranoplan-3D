@@ -18,13 +18,13 @@ To fully demonstrate the geometry and detailing of the model, multiple perspecti
 
 * **Engineering & Front/Side Views:**
 <p align="center">
-  <img src="images/blender_render/Знімок екрана 2026-11-06 142553.png" width="450" alt="Front View">
-  <img src="images/blender_render/Знімок екрана 2026-11-06 142603.png" width="450" alt="Side View">
+  <img src="images/blender_render/Знімок екрана 2026-11-06 142553.png" width="700" alt="Front View">
+  <img src="images/blender_render/Знімок екрана 2026-11-06 142603.png" width="700" alt="Side View">
 </p>
 
 * **Top & Isometric Views:**
 <p align="center">
-  <img src="images/blender_render/Знімок екрана 2026-11-06 142610.png" width="450" alt="Top View">
+  <img src="images/blender_render/Знімок екрана 2026-11-06 142610.png" width="700" alt="Top View">
   <img src="images/blender_render/Знімок екрана 2026-11-06 142617.png" width="700" alt="Isometric View">
 </p>
 
