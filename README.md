@@ -27,3 +27,10 @@ To fully demonstrate the geometry and detailing of the model, multiple perspecti
   <img src="images/blender_render/Знімок екрана 2026-11-06 142610.png" width="450" alt="Top View">
   <img src="images/blender_render/Знімок екрана 2026-11-06 142617.png" width="450" alt="Isometric View">
 </p>
+
+## ✈️ Comparison with Original
+The 3D model was meticulously designed and modeled in Blender based on the original technical concept and visual references of the Talay ekranoplan. 
+
+<p align="center">
+  <img src="шлях_до_папки_оригіналу/назва_файлу_оригіналу.jpeg" width="700" alt="Original Talay Ekranoplan Reference">
+</p>
