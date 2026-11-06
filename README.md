@@ -34,3 +34,9 @@ The 3D model was meticulously designed and modeled in Blender based on the origi
 <p align="center">
   <img src="images/original_ref_Talay/ee55ea28-4mfmi5hityo8rjgd39by8k.jpeg"width="700" alt="Original Talay Ekranoplan Reference">
 </p>
+
+## 📦 STL Scale & 3D Prototyping Note
+Because the real-world dimensions of the Talay ekranoplan are extremely large (wingspan of over 3.5 meters), the exported **STL files** have been scaled down with a factor of **0.05** (`Scale: 0.05`) to ensure smooth performance, correct rendering, and compatibility with standard 3D software and slicers.
+
+* **Wall Thickness:** Maintained at **0.5 mm** for structural optimization.
+* **Tip for Slicers:** If you are preparing the files for 3D printing or full-scale prototyping, keep this scale factor in mind and adjust it back (or scale up) depending on your specific workspace requirements.
