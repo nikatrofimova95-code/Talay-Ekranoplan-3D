@@ -6,9 +6,9 @@ Due to the engineering scale of the real vehicle, the model dimensions are defin
 
 | Parameter | Value |
 | :--- | :--- |
-| **Wingspan (Розмах крил)** | 3594.58 mm |
-| **Length (Довжина)** | 2578.17 mm |
-| **Height (Висота)** | 808.088 mm |
+| **Wingspan (Розмах крил)** | 3595 mm |
+| **Length (Довжина)** | 2578 mm |
+| **Height (Висота)** | 808 mm |
 | **Wall Thickness (Товщина стінок)** | 0.5 mm |
 
 ---
