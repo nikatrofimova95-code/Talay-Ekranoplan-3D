@@ -18,7 +18,7 @@ To fully demonstrate the geometry and detailing of the model, multiple perspecti
 
 * **Engineering & Front/Side Views:**
 <p align="center">
-  <img src="images/blender_render/nazva_faylu_speredu.png" width="48%" alt="Front View">
+  <img src="images/blender_render/Знімок екрана 2026-11-06 142553" width="48%" alt="Front View">
   <img src="шлях_до_папки/назва_файлу_збоку.png" width="48%" alt="Side View">
 </p>
 
