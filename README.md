@@ -32,5 +32,5 @@ To fully demonstrate the geometry and detailing of the model, multiple perspecti
 The 3D model was meticulously designed and modeled in Blender based on the original technical concept and visual references of the Talay ekranoplan. 
 
 <p align="center">
-  <img src="шлях_до_папки_оригіналу/назва_файлу_оригіналу.jpeg" width="700" alt="Original Talay Ekranoplan Reference">
+  <img src="images/original_ref_Talay/ee55ea28-4mfmi5hityo8rjgd39by8k.jpeg" alt="Original Talay Ekranoplan Reference">
 </p>
