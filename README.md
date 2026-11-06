@@ -42,12 +42,16 @@ Because the real-world dimensions of the Talay ekranoplan are extremely large (w
 * **Tip for Slicers:** If you are preparing the files for 3D printing or full-scale prototyping, keep this scale factor in mind and adjust it back (or scale up) depending on your specific workspace requirements.
 
 ## 📂 Project Structure
-- `blender_project/` — Contains the original `.blend` file with full scene details and meshes.
-- `stl_files/` — Contains export-ready 3D models (scaled at 0.05).
-- `images/` — Visual renders and technical screenshots organized into subfolders.
+- `ekranoplan.blend` — The main Blender project file (created in **Blender 5.0.1**).
+- `stl_files/` — Contains export-ready 3D models (includes both individual detailed parts and the full assembly, scaled down with a factor of **0.05**).
+- `images/` — Visual assets divided into subfolders:
+  - `blender_render/` — Renders and screenshots from the Blender viewport.
+  - `original_ref_Talay/` — Original visual references of the Talay ekranoplan.
 
 ---
 
-## 🚀 How to Open
-1. **Blender Files (`.blend`):** Open directly in Blender (v3.0 or higher recommended) to inspect meshes, modifiers, and components.
-2. **STL Files (`.stl`):** Open using any standard 3D viewer, CAD software, or slicer (Cura, PrusaSlicer, Windows 3D Viewer).
+## 🚀 How to Open & Requirements
+1. **Blender Project (`ekranoplan.blend`):** 
+   * Recommended to open using **Blender 5.0.1** (or compatible 5.x versions) to correctly inspect meshes, modifiers, and scene structure.
+2. **STL Files (`.stl`):** 
+   * Can be opened in any standard 3D viewer, CAD software, or slicer (such as Cura or PrusaSlicer) for prototyping or 3D printing individual parts and assemblies. Keep the **0.05 scale** and **0.5 mm wall thickness** parameters in mind during preparation.
