@@ -24,6 +24,6 @@ To fully demonstrate the geometry and detailing of the model, multiple perspecti
 
 * **Top & Isometric Views:**
 <p align="center">
-  <img src="шлях_до_папки/назва_файлу_зверху.png" width="48%" alt="Top View">
+  <img src="images/blender_render/Знімок екрана 2026-11-06 142610.png" width="48%" alt="Top View">
   <img src="шлях_до_папки/назва_файлу_ізометрія.png" width="48%" alt="Isometric View">
 </p>
