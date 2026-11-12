@@ -1,52 +1,60 @@
-# Talay-Ekranoplan-3D
-Detailed 3D model of the Talay ekranoplan (ground effect vehicle) created in Blender, including STL files and instructions for viewing.
+# 🚀 Модифікація силової установки: Екраноплан «Талай» (Гілка: feature/u8-motor-upgrade)
 
-## 📊 Technical Specifications
-Due to the engineering scale of the real vehicle, the model dimensions are defined as follows:
-
-| Parameter | Value |
-| :--- | :--- |
-| **Wingspan (Розмах крил)** | 3595 mm |
-| **Length (Довжина)** | 2578 mm |
-| **Height (Висота)** | 808 mm |
-| **Wall Thickness (Товщина стінок)** | 0.5 mm |
+Ця гілка є інженерним доповненням до базової моделі безпілотного екраноплана «Талай» (`main`). Вона демонструє детальне проєктування силового вузла, інтеграцію безколекторного двигуна та рознімну конструкцію мотогондоли для 3D-друку.
 
 ---
 
-## 🔍 Blender 3D Model Views
-To fully demonstrate the geometry and detailing of the model, multiple perspectives from Blender are provided below:
+## 📐 1. Загальні технічні параметри моделі
+* **Тип проєкту:** Безпілотний екраноплан (транспортний засіб з наземним ефектом).
+* **Масштаб моделі:** Усі компоненти та STL-файли спроектовані та експортовані з Blender із масштабом **0,05**.
+* **Середовище проєктування:** Blender (з використанням українськомовної локалізації інтерфейсу).
 
-* **Engineering & Front/Side Views:**
-<p align="center">
-  <img src="images/blender_render/Знімок екрана 2026-11-06 142553.png" width="700" alt="Front View">
-  <img src="images/blender_render/Знімок екрана 2026-11-06 142603.png" width="700" alt="Side View">
-</p>
+---
 
-* **Top & Isometric Views:**
-<p align="center">
-  <img src="images/blender_render/Знімок екрана 2026-11-06 142610.png" width="700" alt="Top View">
-  <img src="images/blender_render/Знімок екрана 2026-11-06 142617.png" width="700" alt="Isometric View">
-</p>
+## 🖼️ 2. Загальний вигляд оновленого екраноплана
+Нижче наведено загальний вигляд зібраної моделі безпілотного екраноплана в Blender із інтегрованими оновленими мотогондолами:
 
-## ✈️ Comparison with Original
-The 3D model was meticulously designed and modeled in Blender based on the original technical concept and visual references of the Talay ekranoplan. 
+![Загальний вигляд екраноплана 1](images/Знімок%20екрана%202026-11-12%20161735.jpg)
+![Загальний вигляд екраноплана 2](images/Знімок%20екрана%202026-11-12%20161756.jpg)
 
-<p align="center">
-  <img src="images/original_ref_Talay/ee55ea28-4mfmi5hityo8rjgd39by8k.jpeg"width="700" alt="Original Talay Ekranoplan Reference">
-</p>
+---
 
-## 📦 STL Scale & 3D Prototyping Note
-Because the real-world dimensions of the Talay ekranoplan are extremely large (wingspan of over 3.5 meters), the exported **STL files** have been scaled down with a factor of **0.05** (`Scale: 0.05`) to ensure smooth performance, correct rendering, and compatibility with standard 3D software and slicers.
+## 🛠️ 3. Конструктивні зміни мотогондоли та деталі
+У цій версії реалізовано повний цикл доопрацювання задньої мотогондоли під реальні монтажні вимоги:
 
-* **Wall Thickness:** Maintained at **0.5 mm** for structural optimization.
-* **Tip for Slicers:** If you are preparing the files for 3D printing or full-scale prototyping, keep this scale factor in mind and adjust it back (or scale up) depending on your specific workspace requirements.
+### Посадкове місце двигуна
+На задній стінці мотогондоли сформовано точну площину з отворами під кріплення та центральним каналом для виведення силової проводки.
 
-## 📂 Project Structure
-- `ekranoplan.blend` — The main Blender project file (created in **Blender 5.0.1**).
-- `stl_files/` — Contains export-ready 3D models (includes both individual detailed parts and the full assembly, scaled down with a factor of **0.05**).
-- `images/` — Visual assets divided into subfolders:
-  - `blender_render/` — Renders and screenshots from the Blender viewport.
-  - `original_ref_Talay/` — Original visual references of the Talay ekranoplan.
+![Посадкове місце двигуна (задня стінка)](images/Знімок%20екрана%202026-11-12%20161829.png)
+
+### Передній обтічник та з'єднувальний паз
+Конструкція розділена на дві окремі деталі для зручності 3D-друку та збірки. Оскільки товщина стінок мінімальна і використання гвинтів у цій зоні неможливе, на стику передбачено **циліндричне ступінчасте заглиблення (паз завглибшки 3 мм)** для клейової фіксації.
+
+![Передній обтічник](images/Знімок%20екрана%202026-11-12%20161838.png)
+![З'єднувальний паз 3 мм](images/Знімок%20екрана%202026-11-12%20161916.png)
+
+---
+
+## ⚙️ 4. Специфікація силової установки (Двигун та пропелери)
+Для реалізації макета застосовуються стандартизовані промислові компоненти високої потужності, які забезпечують необхідну тягу:
+
+### Безколекторний двигун: T-Motor U8 II KV100
+Промисловий двигун із високою ефективністю, розрахований на роботу у важких умовах та інтеграцію у спеціально розроблене посадкове місце мотогондоли.
+
+![Двигун T-Motor U8 II](images/Знімок%20екрана%202026-11-12%20163037.png)
+
+### Карбонові пропелери: T-Motor Folding Carbon Fiber (28.2 × 9.2)
+Складні дволопатеві карбонові пропелери, розраховані на ефективну роботу в парі з двигуном серії U8 (не потребують ручного CAD-моделювання, додаються як специфікація).
+
+![Карбонові пропелери T-Motor](images/Знімок%20екрана%202026-11-12%20163222.png)
+
+---
+
+## 📂 5. Структура репозиторію
+* `stl_files/` — папка з оновленими STL-файлами (масштаб **0,05**).
+* `images/` — папка з усіма візуальними матеріалами та скріншотами.
+* `ekranoplan02` — файл проєкту Blender.
+* `README.md` — технічна документація та опис гілки.
 
 ---
 
